@@ -49,7 +49,7 @@ class Screen extends Thread implements MouseListener {
         */
         frame.add(panel);   //パネルをフレームに
         //フレームfを表示
-        frame.setTitle("高岡工芸高校コンピュータ研究部(囲碁)");
+        frame.setTitle("コンピュータ研究部(囲碁)");
         winalt = new WindowClosing(frame);
         frame.addWindowListener((WindowListener)winalt);
         frame.pack();

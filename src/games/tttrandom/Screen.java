@@ -57,7 +57,7 @@ public class Screen extends Thread implements MouseListener {
         //フレームfを表示
         //frame.setSize(WIDTH, HEIGHT);
         frame.pack();
-        frame.setTitle("高岡工芸高校コンピュータ研究部(Random)");
+        frame.setTitle("コンピュータ研究部(Random)");
 
         winalt = new WindowClosing(frame);
         frame.addWindowListener((WindowListener) winalt);
