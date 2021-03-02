@@ -1,2 +1,3 @@
 #!/bin/sh
-python3 ./menu.py
+PROG=menu1
+python3 ./$PROG.py
